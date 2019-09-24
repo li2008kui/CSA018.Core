@@ -12,8 +12,8 @@ namespace ThisCoder.CSA018.Core
     {
         /// <summary>
         /// 起始符。
+        /// <para>只读属性，取值为0x02。</para>
         /// </summary>
-        /// <value>只读属性，取值为0x02。</value>
         public byte Stx
         {
             get
@@ -37,8 +37,8 @@ namespace ThisCoder.CSA018.Core
 
         /// <summary>
         /// 结束符。
+        /// <para>只读属性，取值为0x03。</para>
         /// </summary>
-        /// <value>只读属性，取值为0x03。</value>
         public byte Etx
         {
             get
