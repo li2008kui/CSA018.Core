@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Company>ThisCoder.com</Company>
+    <Authors>LiKui</Authors>
+    <Description>这是一个《LED公共照明智能系统接口应用层通信协议》的.NET Core版本实现。</Description>
+    <Copyright>Copyright © 2017 ThisCoder.com</Copyright>
+    <PackageProjectUrl>https://github.com/li2008kui/CSA018.Core</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
+    <PackageTags>LiKui CSA</PackageTags>
+    <PackageReleaseNotes>该版本实现了CAS018协议（除DES加密算法未完成以外）的所有基本功能。</PackageReleaseNotes>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <FileVersion>0.9.0.0</FileVersion>
+    <Version>0.9.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <NeutralLanguage>zh-CN</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
